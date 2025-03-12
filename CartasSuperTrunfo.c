@@ -5,9 +5,9 @@ int main() {
     
     //Cadastro de variáveis
     
-    char estado;
+    char estado[3];
 
-    char codcarta[5];
+    char codcarta[20];
 
     char cidade[50];
 
@@ -23,7 +23,7 @@ int main() {
 
     //informações da carta 1
 
-    printf("Bem vindo ao Supertrunfo! \n");
+    printf("\n Bem vindo ao Supertrunfo! \n");
 
     printf("Digite as informaçoes da carta 01 \n");
 
