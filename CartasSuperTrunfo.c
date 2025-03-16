@@ -128,12 +128,12 @@ int main() {
     printf("\n ---DUELO DE CARTAS--- \n");
     printf("\n ***Obs: 1 = Carta 1, 0 = Carta 2*** \n");
     printf("A maior população é da carta: %d\n" , resultado_populacao);
-    printf("A maior Área é da carta: %d\n" , resultado_area);
-    printf("O maior PIB é da carta: %d\n" , resultado_pib);
+    printf("A maior Área é da carta: %2.f\n" , resultado_area);
+    printf("O maior PIB é da carta: %.2f\n" , resultado_pib);
     printf("A carta com mais pontos turísticos é da carta: %d\n" , resultado_pontosturisticos);
-    printf("A menor densidade populacional é da carta: %d\n" , resultado_densidadepopulacional);
-    printf("O maior PIB per capita é da carta: %d\n" , resultado_pibpercapita);
-    printf("SUPERPODER (todas acimas somadas): %d\n" , resultado_SUPERPODER);
+    printf("A menor densidade populacional é da carta: %.2f\n" , resultado_densidadepopulacional);
+    printf("O maior PIB per capita é da carta: %.2f\n" , resultado_pibpercapita);
+    printf("SUPERPODER (todas acimas somadas): %.2f\n" , resultado_SUPERPODER);
 
     return 0;
 
